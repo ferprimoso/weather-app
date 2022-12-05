@@ -1,0 +1,44 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Weather application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferprimoso/weather-app.git"
+  },
+  "keywords": [
+    "Weather",
+    "Js"
+  ],
+  "author": "Luiz Fernando Campos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ferprimoso/weather-app/issues"
+  },
+  "homepage": "https://github.com/ferprimoso/weather-app#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.2",
+    "eslint": "^8.28.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.8.0",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
