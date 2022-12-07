@@ -6,9 +6,15 @@ const updateDom = (data) => {
   const iconUrl = `http://openweathermap.org/img/wn/${data.tempicon}@2x.png`;
 
   city.textContent = data.city;
-  temp.textContent = `${data.temp}º`;
+  temp.textContent = `${data.temp}ºC`;
   tempdescription.textContent = data.tempdescription;
   icon.src = iconUrl;
 };
 
-export default updateDom;
+const updateBrackground = (img) => {
+  const body = document.querySelector('body');
+  body.style.backgroundImage = `url(${img})`;
+  console.log(img);
+};
+
+export { updateDom, updateBrackground };
