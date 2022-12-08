@@ -5,6 +5,7 @@ async function getWeatherData(location) {
     `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${apiKey}`
   );
   const data = await response.json();
+  console.log(data);
 
   return {
     city: data.name,
@@ -14,6 +15,8 @@ async function getWeatherData(location) {
     tempmin: data.main.temp_min,
     tempdescription: data.weather[0].description,
     tempicon: data.weather[0].icon,
+    humidity: data.main.humidity,
+    wind: data.wind.speed,
   };
 }
 
