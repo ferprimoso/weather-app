@@ -5,25 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= htmlWebpackPlugin.options.title%></title>
+    <script src="https://kit.fontawesome.com/d21ef1f816.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="searchcontainer">
     </div>
+    <div id="clock-container">
+        <h1 id="clock">00:00</h1>
+    </div>
     <div id="container">
         <div id="main-display">
-            <h1 id="city">Guarujá</h1>
+            <h1 id="city">city</h1>
             <div id="temp-display">
-            <img src='' alt="icon" id="icon">
-            <h1 id="temp">38º</h1>
+            <h1 id="temp">00º</h1>
             </div>
         </div>
-        <h1 id="description">place</h2>
+        <img src='' alt="icon" id="icon">
+        <h1 id="description">description</h2>
         <div id="info-container">
-            <h2>humidity:</h2>
-            <h2 id="humidity"></h2>
-            <h2>wind:</h2>
-            <h2 id="winds"></h2>
-
+            <div class="info-card">
+                <i class="fa-solid fa-water fa-2x"></i>
+                <h2>humidity: <span id="humidity"></span></h2>
+            </div>
+            <div class="info-card">
+                <i class="fa-solid fa-wind fa-2x"></i>
+                <h2>wind: <span id="winds"></span></h2>
+            </div>
         </div>
        
 

@@ -17,6 +17,7 @@ async function getWeatherData(location) {
     tempicon: data.weather[0].icon,
     humidity: data.main.humidity,
     wind: data.wind.speed,
+    timezone: data.timezone,
   };
 }
 
