@@ -46,8 +46,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  background-color: blue;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAAA;EACI,sBAAA;AACJ","sourcesContent":["body {\n    background-color: blue;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\n  font-family: \"Source Sans Pro\", sans-serif;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  padding-top: 5rem;\n  max-height: 100vh;\n  background-repeat: none;\n  background-size: cover;\n}\n\n*:focus {\n  outline: none;\n}\n\nh2 {\n  font-size: 1.5rem;\n  margin-bottom: 0.2rem;\n}\n\n#clock {\n  color: #ffffff;\n  font-size: 14rem;\n  margin: 2rem;\n}\n\n#container {\n  background-color: #ffffff;\n  opacity: 0.9;\n  color: black;\n  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;\n  border-top: 5rem;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 30%;\n  height: 50%;\n  border-radius: 2rem;\n}\n\n#main-display {\n  background-color: #274C77;\n  color: #ffffff;\n  opacity: 0.9;\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: space-around;\n  font-size: 1.5rem;\n  width: 100%;\n  border-radius: 2rem 2rem 0 0;\n}\n\n#temp-display {\n  font-size: 1.2rem;\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n}\n\n#description {\n  margin-top: 0rem;\n}\n\n#info-container {\n  width: 100%;\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: space-around;\n}\n\n.info-card {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n#search-label {\n  margin-top: 2rem;\n}\n\n#search-container {\n  display: flex;\n  flex-direction: row;\n  margin-bottom: 2rem;\n}\n\n#searchbox {\n  border-style: none;\n  outline: 0;\n  border-radius: 1rem 0 0 1rem;\n  outline: none;\n  height: 2rem;\n  font-size: 1rem;\n  padding-left: 1rem;\n}\n\n#search-btn {\n  background-color: #A3CEF1;\n  color: white;\n  font-size: 1rem;\n  border-style: none;\n  border-radius: 0 1rem 1rem 0;\n  border-top: 4rem;\n  background-color: none;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAQA;EACI,0CAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,iBAAA;EACA,iBAAA;EACA,uBAAA;EACA,sBAAA;AANJ;;AASA;EACI,aAAA;AANJ;;AASA;EACI,iBAAA;EACA,qBAAA;AANJ;;AASA;EACI,cA7BQ;EA8BR,gBAAA;EACA,YAAA;AANJ;;AASA;EACI,yBAnCQ;EAoCR,YAAA;EACA,YAAA;EACA,2CAAA;EACA,gBAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,UAAA;EACA,WAAA;EACA,mBAAA;AANJ;;AASA;EACI,yBAhDO;EAiDP,cAlDQ;EAmDR,YAAA;EACA,aAAA;EACA,mBAAA;EACA,mBAAA;EACA,6BAAA;EACA,iBAAA;EACA,WAAA;EACA,4BAAA;AANJ;;AAQA;EACI,iBAAA;EACA,aAAA;EACA,mBAAA;EACA,mBAAA;AALJ;;AAQA;EACI,gBAAA;AALJ;;AAQA;EACI,WAAA;EACA,aAAA;EACA,mBAAA;EACA,mBAAA;EACA,6BAAA;AALJ;;AAQA;EACI,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;AALJ;;AAQA;EACI,gBAAA;AALJ;;AAQA;EACI,aAAA;EACA,mBAAA;EACA,mBAAA;AALJ;;AASA;EACI,kBAAA;EACA,UAAA;EACA,4BAAA;EACA,aAAA;EACA,YAAA;EACA,eAAA;EACA,kBAAA;AANJ;;AASA;EACI,yBAzGQ;EA0GR,YAAA;EACA,eAAA;EACA,kBAAA;EACA,4BAAA;EACA,gBAAA;EACA,sBAAA;AANJ","sourcesContent":["$basecolor: #ffffff;\n$darkblue: #274C77;\n$mediumblue: #6096BA;\n$lightblue: #A3CEF1;\n$grey: #8B8C89;\n\n@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');\n\nbody {\n    font-family: 'Source Sans Pro', sans-serif;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding-top: 5rem;\n    max-height: 100vh;\n    background-repeat: none;\n    background-size: cover;\n}\n\n*:focus {\n    outline: none;\n}\n\nh2 {\n    font-size: 1.5rem;\n    margin-bottom: 0.2rem;\n}\n\n#clock {\n    color: $basecolor;\n    font-size: 14rem;\n    margin: 2rem;\n}\n\n#container {\n    background-color: $basecolor;\n    opacity: 0.9;\n    color: black;\n    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;\n    border-top: 5rem;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    width: 30%;\n    height: 50%;\n    border-radius: 2rem;\n}\n\n#main-display {\n    background-color: $darkblue;\n    color: $basecolor;\n    opacity: 0.9;\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    justify-content: space-around;\n    font-size: 1.5rem;\n    width: 100%;\n    border-radius: 2rem 2rem 0 0;\n}\n#temp-display {\n    font-size: 1.2rem;\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n}\n\n#description {\n    margin-top: 0rem;\n}\n\n#info-container {\n    width: 100%;\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    justify-content: space-around;\n}\n\n.info-card {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n}\n\n#search-label {\n    margin-top: 2rem;\n}\n\n#search-container {\n    display: flex;\n    flex-direction: row;\n    margin-bottom: 2rem;\n}\n\n\n#searchbox {\n    border-style: none;\n    outline: 0;\n    border-radius: 1rem 0 0 1rem;\n    outline: none;\n    height: 2rem;\n    font-size: 1rem;\n    padding-left: 1rem;\n}\n\n#search-btn {\n    background-color: $lightblue;\n    color: white;\n    font-size: 1rem;\n    border-style: none;\n    border-radius: 0 1rem 1rem 0;\n    border-top: 4rem;\n    background-color: none;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -590,13 +591,146 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/assets/weather-partly-cloudy-day-svgrepo-com.svg":
-/*!**************************************************************!*\
-  !*** ./src/assets/weather-partly-cloudy-day-svgrepo-com.svg ***!
-  \**************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ "./src/getCityTime.js":
+/*!****************************!*\
+  !*** ./src/getCityTime.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "weather-partly-cloudy-day-svgrepo-com.svg";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const getCitytime = (timeoffset) => {
+  const date = new Date();
+  date.setMinutes(date.getMinutes() + date.getTimezoneOffset() * 1);
+  date.setSeconds(date.getSeconds() + timeoffset);
+
+  console.log(date);
+  return date;
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getCitytime);
+
+
+/***/ }),
+
+/***/ "./src/imageApi.js":
+/*!*************************!*\
+  !*** ./src/imageApi.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "getLocationImage": () => (/* binding */ getLocationImage)
+/* harmony export */ });
+const apiKey = 'QJ-CVCvJxqVi-u3BBwO0HtyQLxRx_RrDhUSS730rvVw';
+
+async function getLocationImage(location) {
+  const response = await fetch(
+    `https://api.unsplash.com/search/photos?query=${location}&orientation=landscape&client_id=${apiKey}`
+  );
+  const data = await response.json();
+  const img = await data.results[0].urls.regular;
+
+  return img;
+}
+
+// eslint-disable-next-line import/prefer-default-export
+
+
+
+/***/ }),
+
+/***/ "./src/updateDom.js":
+/*!**************************!*\
+  !*** ./src/updateDom.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "updateBrackground": () => (/* binding */ updateBrackground),
+/* harmony export */   "updateDom": () => (/* binding */ updateDom)
+/* harmony export */ });
+/* harmony import */ var _getCityTime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getCityTime */ "./src/getCityTime.js");
+
+
+function padTo2Digits(num) {
+  return String(num).padStart(2, '0');
+}
+
+const updateDom = (data) => {
+  const city = document.querySelector('#city');
+  const temp = document.querySelector('#temp');
+  const humidity = document.querySelector('#humidity');
+  const winds = document.querySelector('#winds');
+  const icon = document.querySelector('#icon');
+  const tempdescription = document.querySelector('#description');
+  const iconUrl = `http://openweathermap.org/img/wn/${data.tempicon}@2x.png`;
+  const clock = document.querySelector('#clock');
+
+  city.textContent = data.city;
+  temp.textContent = `${data.temp}ºC`;
+  humidity.textContent = `${data.humidity}%`;
+  winds.textContent = `${data.wind}%`;
+
+  tempdescription.textContent = data.tempdescription;
+  icon.src = iconUrl;
+
+  clock.textContent = `${padTo2Digits(
+    (0,_getCityTime__WEBPACK_IMPORTED_MODULE_0__["default"])(data.timezone).getHours()
+  )}:${padTo2Digits((0,_getCityTime__WEBPACK_IMPORTED_MODULE_0__["default"])(data.timezone).getMinutes())}`;
+};
+
+const updateBrackground = (img) => {
+  const body = document.querySelector('body');
+  body.style.backgroundImage = `url(${img})`;
+  console.log(img);
+};
+
+
+
+
+/***/ }),
+
+/***/ "./src/weatherApi.js":
+/*!***************************!*\
+  !*** ./src/weatherApi.js ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "getWeatherData": () => (/* binding */ getWeatherData)
+/* harmony export */ });
+const apiKey = 'bdb82d606c200d333cc2d7e1e73c617f';
+
+async function getWeatherData(location) {
+  const response = await fetch(
+    `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${apiKey}`
+  );
+  const data = await response.json();
+  console.log(data);
+
+  return {
+    city: data.name,
+    country: data.sys.country,
+    temp: data.main.temp,
+    tempmax: data.main.temp_max,
+    tempmin: data.main.temp_min,
+    tempdescription: data.weather[0].description,
+    tempicon: data.weather[0].icon,
+    humidity: data.main.humidity,
+    wind: data.wind.speed,
+    timezone: data.timezone,
+  };
+}
+
+// eslint-disable-next-line import/prefer-default-export
+
+
 
 /***/ })
 
@@ -651,18 +785,6 @@ module.exports = __webpack_require__.p + "weather-partly-cloudy-day-svgrepo-com.
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/global */
-/******/ 	(() => {
-/******/ 		__webpack_require__.g = (function() {
-/******/ 			if (typeof globalThis === 'object') return globalThis;
-/******/ 			try {
-/******/ 				return this || new Function('return this')();
-/******/ 			} catch (e) {
-/******/ 				if (typeof window === 'object') return window;
-/******/ 			}
-/******/ 		})();
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -677,26 +799,6 @@ module.exports = __webpack_require__.p + "weather-partly-cloudy-day-svgrepo-com.
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
-/******/ 		var scriptUrl;
-/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
-/******/ 		var document = __webpack_require__.g.document;
-/******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript)
-/******/ 				scriptUrl = document.currentScript.src
-/******/ 			if (!scriptUrl) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
-/******/ 			}
-/******/ 		}
-/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
-/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
@@ -714,15 +816,33 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var normalize_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! normalize.css */ "./node_modules/normalize.css/normalize.css");
 /* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/main.scss */ "./src/styles/main.scss");
-/* harmony import */ var _assets_weather_partly_cloudy_day_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/weather-partly-cloudy-day-svgrepo-com.svg */ "./src/assets/weather-partly-cloudy-day-svgrepo-com.svg");
+/* harmony import */ var _weatherApi__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./weatherApi */ "./src/weatherApi.js");
+/* harmony import */ var _updateDom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./updateDom */ "./src/updateDom.js");
+/* harmony import */ var _imageApi__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./imageApi */ "./src/imageApi.js");
 
 
- 
 
-const cloudyImg = document.getElementById('cloudyImg');
-cloudyImg.src = _assets_weather_partly_cloudy_day_svgrepo_com_svg__WEBPACK_IMPORTED_MODULE_2__;
+
+
+
+// Initial
+
+(0,_weatherApi__WEBPACK_IMPORTED_MODULE_2__.getWeatherData)('Santos').then((data) => (0,_updateDom__WEBPACK_IMPORTED_MODULE_3__.updateDom)(data));
+(0,_imageApi__WEBPACK_IMPORTED_MODULE_4__.getLocationImage)('Santos').then((img) => (0,_updateDom__WEBPACK_IMPORTED_MODULE_3__.updateBrackground)(img));
+
+// Events
+
+const searchBtn = document.querySelector('#search-btn');
+
+searchBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  const searchValue = document.querySelector('#searchbox').value;
+  (0,_weatherApi__WEBPACK_IMPORTED_MODULE_2__.getWeatherData)(searchValue).then((data) => (0,_updateDom__WEBPACK_IMPORTED_MODULE_3__.updateDom)(data));
+  (0,_imageApi__WEBPACK_IMPORTED_MODULE_4__.getLocationImage)(searchValue).then((img) => (0,_updateDom__WEBPACK_IMPORTED_MODULE_3__.updateBrackground)(img));
+});
+
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=mainabcf367810e81b804a89.js.map
+//# sourceMappingURL=main81f29dd11503659373f8.js.map
